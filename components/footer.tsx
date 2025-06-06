@@ -7,7 +7,10 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Brand / Logo */}
         <div>
-          <h2 className="text-2xl font-bold mb-4">Viraj.</h2>
+          <h2 className="text-2xl font-bold mb-4">
+            <img className="invert w-48" src="/favicon.png" alt="" />
+            <div>Apricity.</div>
+          </h2>
           <p className="text-[#d6d6d6]">
             Powering growth for the decentralized future. We build, scale, and
             sustain communities in Web3.
@@ -18,11 +21,21 @@ export default function Footer() {
         <div>
           <h3 className="font-semibold mb-4">Quick Links</h3>
           <ul className="flex flex-col gap-2 text-[#d6d6d6] text-sm">
-            <li className="hover:text-[#e0d6cf] transition cursor-pointer">Home</li>
-            <li className="hover:text-[#e0d6cf] transition cursor-pointer">About Us</li>
-            <li className="hover:text-[#e0d6cf] transition cursor-pointer">Works</li>
-            <li className="hover:text-[#e0d6cf] transition cursor-pointer">Article</li>
-            <li className="hover:text-[#e0d6cf] transition cursor-pointer">Book a Call</li>
+            <li className="hover:text-[#e0d6cf] transition cursor-pointer">
+              Home
+            </li>
+            <li className="hover:text-[#e0d6cf] transition cursor-pointer">
+              About Us
+            </li>
+            <li className="hover:text-[#e0d6cf] transition cursor-pointer">
+              Works
+            </li>
+            <li className="hover:text-[#e0d6cf] transition cursor-pointer">
+              Article
+            </li>
+            <li className="hover:text-[#e0d6cf] transition cursor-pointer">
+              Book a Call
+            </li>
           </ul>
         </div>
 
@@ -37,7 +50,7 @@ export default function Footer() {
             <input
               type="email"
               placeholder="Your email"
-              className="rounded-md px-3 py-2 text-white border-white text-sm w-full sm:w-auto"
+              className="rounded-md px-3 py-2 text-white bg-transparent border border-white focus:border-red-300 focus:outline-none transition-colors text-sm w-full sm:w-auto"
             />
             <button
               type="submit"
@@ -52,17 +65,17 @@ export default function Footer() {
         <div>
           <h3 className="font-semibold mb-4">Follow Us</h3>
           <div className="flex gap-4 text-white">
-            <a href="#" className="hover:text-[#e0d6cf]" aria-label="Twitter">
+            <a href="https://x.com/Viraj__Pawar" target="_blank" className="hover:text-[#e0d6cf]" aria-label="Twitter">
               <Twitter className="w-5 h-5" />
             </a>
-            <a href="#" className="hover:text-[#e0d6cf]" aria-label="Discord">
+            <a href="" target="_blank" className="hover:text-[#e0d6cf]" aria-label="Discord">
               <MessageCircleMore className="w-5 h-5" />
             </a>
-            <a href="#" className="hover:text-[#e0d6cf]" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/viraj-ap/" target="_blank" className="hover:text-[#e0d6cf]" aria-label="LinkedIn">
               <Linkedin className="w-5 h-5" />
             </a>
             <a
-              href="mailto:hello@web3mark.com"
+              href="mailto:viraj25092004@gmail.com"
               className="hover:text-[#e0d6cf]"
               aria-label="Email"
             >
