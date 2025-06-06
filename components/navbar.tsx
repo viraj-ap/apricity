@@ -15,7 +15,7 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav className="flex justify-center w-full sticky top-0 z-50 px-4 py-2 mt-8">
+        <div className="flex justify-center w-full sticky top-0 z-50 px-4 py-2 mt-8">
             <div
             className={`flex justify-between items-center text-white transition-all duration-200 ${
                 isScrolled
@@ -88,7 +88,7 @@ const Navbar = () => {
                 </ul>
             </div>
             )}
-        </nav>
+        </div>
     );
 };
 
