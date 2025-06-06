@@ -19,8 +19,8 @@ const Navbar = () => {
             <div
             className={`flex justify-between items-center text-white transition-all duration-200 ${
                 isScrolled
-                ? "w-[90vw] bg-black/50 backdrop-blur-md shadow-lg rounded-lg"
-                : "w-[90vw]" // Slightly narrower than full width when not scrolled
+                ? "w-[90vw] p-2 bg-black/50 backdrop-blur-md shadow-lg rounded-lg"
+                : "w-[90vw] p-2" // Slightly narrower than full width when not scrolled
             }`}
             >
             {/* Left section: Mobile menu button - consistent positioning */}
@@ -84,11 +84,7 @@ const Navbar = () => {
                     {item}
                     </li>
                 ))}
-                <li>
-                    <button className="w-full font-bold border-2 py-2 rounded-full hover:bg-white hover:text-black transition-all duration-300 hover:scale-105 text-[14px]">
-                    BOOK CALL
-                    </button>
-                </li>
+               
                 </ul>
             </div>
             )}
